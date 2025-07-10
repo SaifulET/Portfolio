@@ -12,8 +12,8 @@ type ServiceCardProps = {
 export default function ServiceCard({ icon, title, description, url,tech ,fullDes}: ServiceCardProps) {
   const techs = tech.split(" ");
   return (
-    <div className='w-100  border border-black   border-4 bg-card overflow-hidden rounded-2xl shadow-[0_0_20px_10px_#0E2D33]'>
-      <div className="relative group w-100 h-60  overflow-hidden shadow-lg ">
+    <div className='w-80  border border-black   border-4 bg-card overflow-hidden rounded-2xl shadow-[0_0_20px_10px_#0E2D33]'>
+      <div className="relative group w-80 h-60  overflow-hidden shadow-lg ">
       {/* Scrollable preview container */}
       <div className="absolute inset-0 overflow-hidden group-hover:opacity-0 transition-opacity duration-300">
         <div className="h-[200%] animate-scroll-preview origin-top-left scale-[0.5]">
