@@ -22,6 +22,7 @@ export default function HomePage() {
 • Hero search, category keywords, feature highlights, auto-sliding client reviews, and mobile-app promo."/>
           <ServiceCard icon={<FaLightbulb />} title="Kanban Board Web Application" description="Task-tracking tool with drag-and-drop columns "url="https://github.com/SaifulET/KanbanBoard"tech="React Tailwind Express Mongoose context-api " fullDes="Task-tracking tool with drag-and-drop columns (“To Do”, “In Progress”, “Done”). 
 • Tasks store title, description, due date, priority; real-time reordering with priority recalculation. "/>
+          <ServiceCard icon={<FaLightbulb />} title="Company Portfolio" description="Showcasing company services and achievement "url="https://bluestarmgt.com/"tech="React Tailwind Express Nodemailer" fullDes=" The company named Bluestar shows their 3 types of interior design they provide . Under those type it show sum sub section. also a user can send email to admin  "/>
           {/* <ServiceCard icon={<FaCode />} title="Web Development" description="Modern, responsive, and fast websites." /> */}
           {/* <ServiceCard icon={<FaPalette />} title="UI/UX Design" description="Beautiful and user-friendly interfaces." /> */}
         </div>
