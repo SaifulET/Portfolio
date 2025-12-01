@@ -12,7 +12,8 @@ const education = [
 ];
 const experience = [
   { title: 'VLSI 7Days Training', desc: 'ULKASEMI',gpa:"" },
-  { title: 'MERN STACK DEVELOPMENT', desc: 'OSTAD',gpa:"" },
+  { title: 'MERN Stack Development Course', desc: 'OSTAD',gpa:"" },
+  { title: 'Junior Full Stack Developer', desc: 'Sparktech Agency (Betopia company) - From 1st August,2025',gpa:"" },
 ];
 
 export default function ResumeTabs() {
